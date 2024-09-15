@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="left-banner-content">
+              <img src="asset/img/profile.png" alt="Profile Picture" class="profile-img  w-100">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="caption">
+              <h1>Hi, I'm a Frontend Developer</h1>
+              <p>I create responsive and modern web applications</p>
+              <a href="asset/docs/Priti_Resume.docx" class="btn cv-btn">View CV</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about py-24">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-7">
+            <div class="about-content">
+              <h2 class="ft-60">About Me</h2>
+              <p>Hello! I'm a passionate frontend developer with experience in creating responsive and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and React, and I have a keen eye for design and detail. Let's work together to bring your ideas to life!</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="asset/img/tools.jpg" alt="Profile Picture" class="profile-img w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills bg-teal py-24">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="ft-60 text-center pb-5">Skills</h2>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="asset/img/html-css.jpg" class="d-block w-100" alt="html">
+              </div>
+              <div class="item">
+                <img src="asset/img/css.jpg" class="d-block w-100" alt="css">
+              </div>
+              <div class="item">
+                <img src="asset/img/react.jpg" class="d-block w-100" alt="react">
+              </div>
+              <div class="item">
+                <img src="asset/img/bootstrap.jpg" class="d-block w-100" alt="bootstrap">
+              </div>
+              <div class="item">
+                <img src="asset/img/html.jpg" class="d-block w-100" alt="html">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects py-24">
+      <div class="container">
+        <h2 class="ft-60  text-center">Projects</h2>
+        <div class="project-grid py-24">
+          <div class="project">
+            <img src="asset/img/project.svg" class="svg-img">
+            <h3>Project 1</h3>
+            <p>Description of the project and technologies used.<br> Comming Soon...</p>
+          </div>
+          <div class="project">
+            <img src="asset/img/project.svg" class="svg-img">
+            <h3>Project 2</h3>
+            <p>Description of the project and technologies used.<br> Comming Soon...</p>
+          </div>
+          <div class="project">
+            <img src="asset/img/project.svg" class="svg-img">
+            <h3>Project 3</h3>
+            <p>Description of the project and technologies used.<br> Comming Soon...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="ft-60 text-center">Contact</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Frontend Developer Portfolio</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="asset/js/main.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+  </body>
+</html>
